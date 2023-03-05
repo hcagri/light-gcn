@@ -13,6 +13,7 @@ class LightGCNConv(MessagePassing):
         j : Source index
         i : Target index
     '''
+    
     def __init__(self):
         super().__init__(aggr='add')
 
